@@ -1,0 +1,20 @@
+# Data processing
+numpy==2.1.3
+pandas==2.2.3
+
+# Visualization
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# Machine learning and class balancing
+scikit-learn==1.5.2
+imbalanced-learn==0.12.4
+joblib==1.4.2
+
+# Explainability and resource measurement
+shap==0.46.0
+psutil==6.1.0
+
+# Notebooks and testing
+ipykernel==6.29.5
+pytest==8.3.3

@@ -1,0 +1,30 @@
+# Python environments
+.venv/
+venv/
+env/
+
+# Python caches and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local datasets
+/Datasets/
+
+# Intermediate and processed data
+/data/interim/
+/data/processed/
+
+# Generated experiment results
+/results/
+
+# Local settings and secrets
+.env
+.env.*
+!.env.example
+
+# Windows and macOS metadata
+**/desktop.ini
+Thumbs.db
+.DS_Store
