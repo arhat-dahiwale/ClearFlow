@@ -1,0 +1,10 @@
+dataset,file,total_rows,rows_with_missing,rows_with_infinity,rows_with_both,rows_to_remove_for_quality,rows_remaining,missing_only_rows,infinite_only_rows,rows_affected_pct
+CICIDS-2017,Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv,225745,4,34,4,34,225711,0,30,0.015061241666482093
+CICIDS-2017,Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv,286467,15,371,15,371,286096,0,356,0.12950880904257733
+CICIDS-2017,Friday-WorkingHours-Morning.pcap_ISCX.csv,191033,28,122,28,122,190911,0,94,0.06386331157444002
+CICIDS-2017,Monday-WorkingHours.pcap_ISCX.csv,529918,64,437,64,437,529481,0,373,0.08246558901565902
+CICIDS-2017,Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv,288602,18,207,18,207,288395,0,189,0.0717250746703072
+CICIDS-2017,Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv,170366,20,135,20,135,170231,0,115,0.07924116314288063
+CICIDS-2017,Tuesday-WorkingHours.pcap_ISCX.csv,445909,201,264,201,264,445645,0,63,0.059204905036677885
+CICIDS-2017,Wednesday-workingHours.pcap_ISCX.csv,692703,1008,1297,1008,1297,691406,0,289,0.18723753181377878
+SDN TCP-SYN,TCP-SYNC DATASET.csv,6234,1,0,0,1,6233,1,0,0.016041065126724416

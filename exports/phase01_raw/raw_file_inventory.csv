@@ -1,0 +1,10 @@
+dataset,file,size_mb,relative_path
+CICIDS-2017,Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv,73.55,Datasets/CICIDS2017/Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+CICIDS-2017,Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv,73.34,Datasets/CICIDS2017/Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+CICIDS-2017,Friday-WorkingHours-Morning.pcap_ISCX.csv,55.62,Datasets/CICIDS2017/Friday-WorkingHours-Morning.pcap_ISCX.csv
+CICIDS-2017,Monday-WorkingHours.pcap_ISCX.csv,168.73,Datasets/CICIDS2017/Monday-WorkingHours.pcap_ISCX.csv
+CICIDS-2017,Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv,79.25,Datasets/CICIDS2017/Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+CICIDS-2017,Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv,49.61,Datasets/CICIDS2017/Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+CICIDS-2017,Tuesday-WorkingHours.pcap_ISCX.csv,128.82,Datasets/CICIDS2017/Tuesday-WorkingHours.pcap_ISCX.csv
+CICIDS-2017,Wednesday-workingHours.pcap_ISCX.csv,214.74,Datasets/CICIDS2017/Wednesday-workingHours.pcap_ISCX.csv
+SDN TCP-SYN,TCP-SYNC DATASET.csv,2.16,Datasets/SDN_TCP_SYN/TCP-SYNC DATASET.csv

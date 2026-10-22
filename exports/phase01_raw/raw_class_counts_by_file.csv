@@ -1,0 +1,26 @@
+dataset,file,raw_label,count,display_class,file_rows,percentage_of_file
+CICIDS-2017,Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv,DDoS,128027,DDoS,225745,56.71310549513832
+CICIDS-2017,Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv,BENIGN,97718,Benign,225745,43.28689450486168
+CICIDS-2017,Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv,BENIGN,127537,Benign,286467,44.52066032038594
+CICIDS-2017,Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv,PortScan,158930,PortScan,286467,55.47933967961406
+CICIDS-2017,Friday-WorkingHours-Morning.pcap_ISCX.csv,BENIGN,189067,Benign,191033,98.9708584380709
+CICIDS-2017,Friday-WorkingHours-Morning.pcap_ISCX.csv,Bot,1966,Bot,191033,1.0291415619290907
+CICIDS-2017,Monday-WorkingHours.pcap_ISCX.csv,BENIGN,529918,Benign,529918,100.0
+CICIDS-2017,Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv,BENIGN,288566,Benign,288602,99.98752607397039
+CICIDS-2017,Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv,Infiltration,36,Infiltration,288602,0.012473926029618644
+CICIDS-2017,Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv,BENIGN,168186,Benign,170366,98.72040195813719
+CICIDS-2017,Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv,Web Attack � Brute Force,1507,Web Attack - Brute Force,170366,0.8845661693060822
+CICIDS-2017,Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv,Web Attack � XSS,652,Web Attack - XSS,170366,0.3827054694011716
+CICIDS-2017,Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv,Web Attack � Sql Injection,21,Web Attack - SQL Injection,170366,0.012326403155559208
+CICIDS-2017,Tuesday-WorkingHours.pcap_ISCX.csv,BENIGN,432074,Benign,445909,96.89734901067258
+CICIDS-2017,Tuesday-WorkingHours.pcap_ISCX.csv,FTP-Patator,7938,FTP-Patator,445909,1.7801838491710191
+CICIDS-2017,Tuesday-WorkingHours.pcap_ISCX.csv,SSH-Patator,5897,SSH-Patator,445909,1.3224671401563997
+CICIDS-2017,Wednesday-workingHours.pcap_ISCX.csv,BENIGN,440031,Benign,692703,63.52376126565065
+CICIDS-2017,Wednesday-workingHours.pcap_ISCX.csv,DoS Hulk,231073,DoS Hulk,692703,33.358163599695686
+CICIDS-2017,Wednesday-workingHours.pcap_ISCX.csv,DoS slowloris,5796,DoS slowloris,692703,0.8367222316057531
+CICIDS-2017,Wednesday-workingHours.pcap_ISCX.csv,DoS Slowhttptest,5499,DoS Slowhttptest,692703,0.7938467135265763
+CICIDS-2017,Wednesday-workingHours.pcap_ISCX.csv,DoS GoldenEye,10293,DoS GoldenEye,692703,1.4859182073702581
+CICIDS-2017,Wednesday-workingHours.pcap_ISCX.csv,Heartbleed,11,Heartbleed,692703,0.001587982151080622
+SDN TCP-SYN,TCP-SYNC DATASET.csv,DDOS,3554,SYN Flood,6234,57.00994546037857
+SDN TCP-SYN,TCP-SYNC DATASET.csv,Normal,2679,Benign,6234,42.974013474494704
+SDN TCP-SYN,TCP-SYNC DATASET.csv,<MISSING>,1,Missing label (not a class),6234,0.016041065126724416
