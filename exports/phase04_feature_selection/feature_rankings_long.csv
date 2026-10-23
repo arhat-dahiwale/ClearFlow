@@ -1,0 +1,211 @@
+method,method_display,feature,rank,score,score_name,p_value,elimination_round,importance_at_elimination
+rf_importance,Random Forest Importance,Destination Port,1,0.0687239032897155,gini_importance,,,
+rf_importance,Random Forest Importance,Init_Win_bytes_backward,2,0.05531622332153355,gini_importance,,,
+rf_importance,Random Forest Importance,min_seg_size_forward,3,0.0421840577798163,gini_importance,,,
+rf_importance,Random Forest Importance,Init_Win_bytes_forward,4,0.04005973710535257,gini_importance,,,
+rf_importance,Random Forest Importance,Bwd Packets/s,5,0.03327429436433134,gini_importance,,,
+rf_importance,Random Forest Importance,Bwd Header Length,6,0.027687834952853894,gini_importance,,,
+rf_importance,Random Forest Importance,Fwd Packet Length Max,7,0.026208490313854086,gini_importance,,,
+rf_importance,Random Forest Importance,Subflow Bwd Packets,8,0.02154565805548577,gini_importance,,,
+rf_importance,Random Forest Importance,Flow IAT Mean,9,0.021256284706661143,gini_importance,,,
+rf_importance,Random Forest Importance,Packet Length Mean,10,0.02055680408963056,gini_importance,,,
+rf_importance,Random Forest Importance,Avg Bwd Segment Size,11,0.020284764448002642,gini_importance,,,
+rf_importance,Random Forest Importance,Total Backward Packets,12,0.02019736452699031,gini_importance,,,
+rf_importance,Random Forest Importance,Flow IAT Max,13,0.01991295494743299,gini_importance,,,
+rf_importance,Random Forest Importance,Average Packet Size,14,0.019196911620405755,gini_importance,,,
+rf_importance,Random Forest Importance,Total Length of Fwd Packets,15,0.019165206470993824,gini_importance,,,
+rf_importance,Random Forest Importance,Flow Packets/s,16,0.019134619075062503,gini_importance,,,
+rf_importance,Random Forest Importance,Flow Duration,17,0.018417852305031176,gini_importance,,,
+rf_importance,Random Forest Importance,Max Packet Length,18,0.01796974123472166,gini_importance,,,
+rf_importance,Random Forest Importance,Packet Length Std,19,0.01706898141532027,gini_importance,,,
+rf_importance,Random Forest Importance,Subflow Fwd Bytes,20,0.01689799113804408,gini_importance,,,
+rf_importance,Random Forest Importance,Avg Fwd Segment Size,21,0.01673794376987882,gini_importance,,,
+rf_importance,Random Forest Importance,Fwd Header Length,22,0.016684314323738535,gini_importance,,,
+rf_importance,Random Forest Importance,Flow IAT Std,23,0.016660882510343998,gini_importance,,,
+rf_importance,Random Forest Importance,Total Length of Bwd Packets,24,0.016090157107321874,gini_importance,,,
+rf_importance,Random Forest Importance,Packet Length Variance,25,0.01584838723318631,gini_importance,,,
+rf_importance,Random Forest Importance,Fwd IAT Mean,26,0.015847411114248547,gini_importance,,,
+rf_importance,Random Forest Importance,Bwd Packet Length Mean,27,0.015267928991059361,gini_importance,,,
+rf_importance,Random Forest Importance,Bwd Packet Length Max,28,0.015206811724091164,gini_importance,,,
+rf_importance,Random Forest Importance,Subflow Bwd Bytes,29,0.015077011200450817,gini_importance,,,
+rf_importance,Random Forest Importance,Fwd IAT Std,30,0.015031719037569741,gini_importance,,,
+rf_importance,Random Forest Importance,PSH Flag Count,31,0.015021470694035257,gini_importance,,,
+rf_importance,Random Forest Importance,Fwd IAT Max,32,0.01496078897424693,gini_importance,,,
+rf_importance,Random Forest Importance,Fwd Packet Length Mean,33,0.014680451921689557,gini_importance,,,
+rf_importance,Random Forest Importance,Bwd Packet Length Min,34,0.014415225630512013,gini_importance,,,
+rf_importance,Random Forest Importance,Fwd Packets/s,35,0.013448687626630903,gini_importance,,,
+rf_importance,Random Forest Importance,act_data_pkt_fwd,36,0.013446642515610632,gini_importance,,,
+rf_importance,Random Forest Importance,Fwd IAT Total,37,0.012814207331300847,gini_importance,,,
+rf_importance,Random Forest Importance,Active Min,38,0.01275422738919879,gini_importance,,,
+rf_importance,Random Forest Importance,Bwd Packet Length Std,39,0.012415496887977223,gini_importance,,,
+rf_importance,Random Forest Importance,Flow Bytes/s,40,0.012243282998502936,gini_importance,,,
+rf_importance,Random Forest Importance,Fwd Packet Length Std,41,0.012135865073966592,gini_importance,,,
+rf_importance,Random Forest Importance,Bwd IAT Mean,42,0.011168408350326819,gini_importance,,,
+rf_importance,Random Forest Importance,Bwd IAT Min,43,0.010976473021273612,gini_importance,,,
+rf_importance,Random Forest Importance,Total Fwd Packets,44,0.010896614271418182,gini_importance,,,
+rf_importance,Random Forest Importance,Subflow Fwd Packets,45,0.010540960555854122,gini_importance,,,
+rf_importance,Random Forest Importance,Bwd IAT Max,46,0.009725043722960297,gini_importance,,,
+rf_importance,Random Forest Importance,Fwd IAT Min,47,0.009462867012681214,gini_importance,,,
+rf_importance,Random Forest Importance,Idle Mean,48,0.007620588097929315,gini_importance,,,
+rf_importance,Random Forest Importance,ACK Flag Count,49,0.0075885308159461965,gini_importance,,,
+rf_importance,Random Forest Importance,Idle Min,50,0.007466057264949282,gini_importance,,,
+rf_importance,Random Forest Importance,Bwd IAT Total,51,0.007404261404312896,gini_importance,,,
+rf_importance,Random Forest Importance,Flow IAT Min,52,0.007082108948922758,gini_importance,,,
+rf_importance,Random Forest Importance,Active Mean,53,0.006684488638401004,gini_importance,,,
+rf_importance,Random Forest Importance,Down/Up Ratio,54,0.006530974892226298,gini_importance,,,
+rf_importance,Random Forest Importance,Min Packet Length,55,0.006428085851402238,gini_importance,,,
+rf_importance,Random Forest Importance,Bwd IAT Std,56,0.006188905946640696,gini_importance,,,
+rf_importance,Random Forest Importance,Idle Max,57,0.005334755588487058,gini_importance,,,
+rf_importance,Random Forest Importance,SYN Flag Count,58,0.005170740030937542,gini_importance,,,
+rf_importance,Random Forest Importance,Fwd Packet Length Min,59,0.002901893561994378,gini_importance,,,
+rf_importance,Random Forest Importance,Active Max,60,0.002812969235498906,gini_importance,,,
+rf_importance,Random Forest Importance,URG Flag Count,61,0.002111321083515234,gini_importance,,,
+rf_importance,Random Forest Importance,Fwd PSH Flags,62,0.002094177537160332,gini_importance,,,
+rf_importance,Random Forest Importance,Idle Std,63,0.0010710156992506665,gini_importance,,,
+rf_importance,Random Forest Importance,FIN Flag Count,64,0.0005745700093021887,gini_importance,,,
+rf_importance,Random Forest Importance,Active Std,65,0.00031559924180798256,gini_importance,,,
+rf_importance,Random Forest Importance,ECE Flag Count,66,4.06222993622189e-18,gini_importance,,,
+rf_importance,Random Forest Importance,Bwd PSH Flags,67,0.0,gini_importance,,,
+rf_importance,Random Forest Importance,Fwd URG Flags,68,0.0,gini_importance,,,
+rf_importance,Random Forest Importance,RST Flag Count,69,0.0,gini_importance,,,
+rf_importance,Random Forest Importance,CWE Flag Count,70,0.0,gini_importance,,,
+anova_f_test,ANOVA F-test,Init_Win_bytes_backward,1,23171.11816550336,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Bwd Packet Length Mean,2,8666.37850357133,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Avg Bwd Segment Size,3,8666.37850357133,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Fwd IAT Std,4,8325.872185925435,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Packet Length Mean,5,7817.096752928364,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Average Packet Size,6,7544.719396192635,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Bwd Packet Length Max,7,7141.5394111358,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Packet Length Std,8,7111.685382599681,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,SYN Flag Count,9,6958.897582118109,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Max Packet Length,10,6699.361209157357,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Flow IAT Max,11,6557.609739757922,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Fwd IAT Max,12,6534.742968371823,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Bwd Packet Length Std,13,6522.461844687447,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Idle Max,14,6462.902883137103,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Idle Mean,15,6457.835028381657,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Idle Min,16,6172.404259095782,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Active Min,17,5678.711358890458,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Fwd IAT Total,18,5652.235819419728,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Active Mean,19,5605.97022593603,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Flow Duration,20,5598.68531212806,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,PSH Flag Count,21,4582.121045639003,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Active Max,22,4326.867616876127,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Flow IAT Std,23,4266.81002538896,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Packet Length Variance,24,3938.42111520193,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Init_Win_bytes_forward,25,3734.353462587478,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Bwd IAT Mean,26,3588.899840759792,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Down/Up Ratio,27,3395.9101349346142,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Bwd IAT Min,28,3063.190274411958,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,FIN Flag Count,29,2634.427560843808,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Active Std,30,2194.6438196994304,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Bwd Packet Length Min,31,2054.8212871824962,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Bwd IAT Max,32,2015.6519323809791,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Bwd IAT Total,33,1851.1050979041163,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Fwd IAT Mean,34,1603.9368600495982,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Fwd PSH Flags,35,1559.2739676701501,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,ACK Flag Count,36,1548.5255914150569,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Destination Port,37,1531.0846941320544,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Flow IAT Mean,38,1509.4480736518653,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Bwd IAT Std,39,1275.0444057078018,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Fwd IAT Min,40,1243.6179278191553,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Flow IAT Min,41,1033.4759034936567,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,URG Flag Count,42,901.7535409687257,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Min Packet Length,43,843.224239974444,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Idle Std,44,804.2320254808549,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Fwd Packet Length Std,45,781.7063832441237,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Bwd Packets/s,46,780.3520444819915,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Fwd Packet Length Max,47,702.725342479774,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,act_data_pkt_fwd,48,536.6741287044697,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Flow Packets/s,49,426.57532179916853,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Fwd Packet Length Mean,50,387.6982981378314,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Avg Fwd Segment Size,51,387.6982981378314,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Fwd Packet Length Min,52,317.2912906337382,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Fwd Packets/s,53,269.6556222325483,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Total Length of Fwd Packets,54,174.3822130828522,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Subflow Fwd Bytes,55,174.3822130828522,anova_f_statistic,0.0,,
+anova_f_test,ANOVA F-test,Bwd Header Length,56,79.94325366926631,anova_f_statistic,2.4385145727863633e-180,,
+anova_f_test,ANOVA F-test,Total Backward Packets,57,73.4692265757768,anova_f_statistic,3.197767734134047e-165,,
+anova_f_test,ANOVA F-test,Subflow Bwd Packets,58,73.4692265757768,anova_f_statistic,3.197767734134047e-165,,
+anova_f_test,ANOVA F-test,Total Fwd Packets,59,45.489265406566176,anova_f_statistic,6.254310425891024e-100,,
+anova_f_test,ANOVA F-test,Subflow Fwd Packets,60,45.489265406566176,anova_f_statistic,6.254310425891024e-100,,
+anova_f_test,ANOVA F-test,Flow Bytes/s,61,11.345326543063608,anova_f_statistic,2.053322721526642e-21,,
+anova_f_test,ANOVA F-test,Total Length of Bwd Packets,62,3.930003337406143,anova_f_statistic,9.945794917485686e-06,,
+anova_f_test,ANOVA F-test,Subflow Bwd Bytes,63,3.9245167358737594,anova_f_statistic,1.0189403544763686e-05,,
+anova_f_test,ANOVA F-test,RST Flag Count,64,1.6432577107489827,anova_f_statistic,0.07986416510776022,,
+anova_f_test,ANOVA F-test,ECE Flag Count,65,1.6432577107489827,anova_f_statistic,0.07986416510776022,,
+anova_f_test,ANOVA F-test,min_seg_size_forward,66,0.5479975123266508,anova_f_statistic,0.8714827560958284,,
+anova_f_test,ANOVA F-test,Fwd Header Length,67,0.5471653228089567,anova_f_statistic,0.8720971117646747,,
+anova_f_test,ANOVA F-test,Bwd PSH Flags,68,-inf,anova_f_statistic,1.0,,
+anova_f_test,ANOVA F-test,Fwd URG Flags,69,-inf,anova_f_statistic,1.0,,
+anova_f_test,ANOVA F-test,CWE Flag Count,70,-inf,anova_f_statistic,1.0,,
+rfe_decision_tree,RFE (Decision Tree),Destination Port,1,0.5394278168097031,decision_tree_importance_at_elimination,,15.0,0.5394278168097031
+rfe_decision_tree,RFE (Decision Tree),Flow IAT Std,2,0.4605721831902969,decision_tree_importance_at_elimination,,14.0,0.4605721831902969
+rfe_decision_tree,RFE (Decision Tree),min_seg_size_forward,3,0.25599446708846274,decision_tree_importance_at_elimination,,13.0,0.25599446708846274
+rfe_decision_tree,RFE (Decision Tree),Fwd Packet Length Max,4,0.18517519898412693,decision_tree_importance_at_elimination,,12.0,0.18517519898412693
+rfe_decision_tree,RFE (Decision Tree),Init_Win_bytes_backward,5,0.14305880508083085,decision_tree_importance_at_elimination,,11.0,0.14305880508083085
+rfe_decision_tree,RFE (Decision Tree),Bwd Packet Length Max,6,0.11862745824393647,decision_tree_importance_at_elimination,,11.0,0.11862745824393647
+rfe_decision_tree,RFE (Decision Tree),Average Packet Size,7,0.07346791303393642,decision_tree_importance_at_elimination,,10.0,0.07346791303393642
+rfe_decision_tree,RFE (Decision Tree),Flow Bytes/s,8,0.07049859692228448,decision_tree_importance_at_elimination,,10.0,0.07049859692228448
+rfe_decision_tree,RFE (Decision Tree),Bwd IAT Mean,9,0.04994655674061214,decision_tree_importance_at_elimination,,9.0,0.04994655674061214
+rfe_decision_tree,RFE (Decision Tree),Active Min,10,0.04622248361694719,decision_tree_importance_at_elimination,,9.0,0.04622248361694719
+rfe_decision_tree,RFE (Decision Tree),Bwd Packet Length Std,11,0.036036032360210586,decision_tree_importance_at_elimination,,8.0,0.036036032360210586
+rfe_decision_tree,RFE (Decision Tree),Bwd Packets/s,12,0.020117603491425065,decision_tree_importance_at_elimination,,8.0,0.020117603491425065
+rfe_decision_tree,RFE (Decision Tree),Total Length of Fwd Packets,13,0.018057610139875963,decision_tree_importance_at_elimination,,8.0,0.018057610139875963
+rfe_decision_tree,RFE (Decision Tree),Idle Min,14,0.01819954986649606,decision_tree_importance_at_elimination,,7.0,0.01819954986649606
+rfe_decision_tree,RFE (Decision Tree),Init_Win_bytes_forward,15,0.017643859707919603,decision_tree_importance_at_elimination,,7.0,0.017643859707919603
+rfe_decision_tree,RFE (Decision Tree),Max Packet Length,16,0.014598575369332486,decision_tree_importance_at_elimination,,7.0,0.014598575369332486
+rfe_decision_tree,RFE (Decision Tree),Bwd IAT Min,17,0.012350040275214911,decision_tree_importance_at_elimination,,7.0,0.012350040275214911
+rfe_decision_tree,RFE (Decision Tree),Fwd IAT Min,18,0.00986349941438968,decision_tree_importance_at_elimination,,6.0,0.00986349941438968
+rfe_decision_tree,RFE (Decision Tree),Bwd Packet Length Min,19,0.006693851996607461,decision_tree_importance_at_elimination,,6.0,0.006693851996607461
+rfe_decision_tree,RFE (Decision Tree),Bwd Packet Length Mean,20,0.0033123077486856517,decision_tree_importance_at_elimination,,6.0,0.0033123077486856517
+rfe_decision_tree,RFE (Decision Tree),Fwd Header Length,21,0.001028284194718334,decision_tree_importance_at_elimination,,6.0,0.001028284194718334
+rfe_decision_tree,RFE (Decision Tree),Fwd Packet Length Std,22,0.0001320409411658846,decision_tree_importance_at_elimination,,6.0,0.0001320409411658846
+rfe_decision_tree,RFE (Decision Tree),Packet Length Variance,23,0.002763046823080907,decision_tree_importance_at_elimination,,5.0,0.002763046823080907
+rfe_decision_tree,RFE (Decision Tree),Bwd Header Length,24,0.00267860433889794,decision_tree_importance_at_elimination,,5.0,0.00267860433889794
+rfe_decision_tree,RFE (Decision Tree),Flow IAT Mean,25,0.002271294005318173,decision_tree_importance_at_elimination,,5.0,0.002271294005318173
+rfe_decision_tree,RFE (Decision Tree),Subflow Bwd Bytes,26,0.0005919501714535436,decision_tree_importance_at_elimination,,5.0,0.0005919501714535436
+rfe_decision_tree,RFE (Decision Tree),Fwd Packets/s,27,0.0005790161191282461,decision_tree_importance_at_elimination,,5.0,0.0005790161191282461
+rfe_decision_tree,RFE (Decision Tree),Subflow Fwd Bytes,28,7.151516664029176e-05,decision_tree_importance_at_elimination,,5.0,7.151516664029176e-05
+rfe_decision_tree,RFE (Decision Tree),Flow IAT Max,29,0.0005300938029399602,decision_tree_importance_at_elimination,,4.0,0.0005300938029399602
+rfe_decision_tree,RFE (Decision Tree),Flow Duration,30,0.00028941995583192876,decision_tree_importance_at_elimination,,4.0,0.00028941995583192876
+rfe_decision_tree,RFE (Decision Tree),Flow IAT Min,31,0.00026655803197127493,decision_tree_importance_at_elimination,,4.0,0.00026655803197127493
+rfe_decision_tree,RFE (Decision Tree),FIN Flag Count,32,0.0002380807186334966,decision_tree_importance_at_elimination,,4.0,0.0002380807186334966
+rfe_decision_tree,RFE (Decision Tree),ACK Flag Count,33,0.00020633187884459356,decision_tree_importance_at_elimination,,4.0,0.00020633187884459356
+rfe_decision_tree,RFE (Decision Tree),act_data_pkt_fwd,34,4.1589530980452415e-05,decision_tree_importance_at_elimination,,4.0,4.1589530980452415e-05
+rfe_decision_tree,RFE (Decision Tree),Bwd IAT Total,35,2.9187796320741617e-05,decision_tree_importance_at_elimination,,4.0,2.9187796320741617e-05
+rfe_decision_tree,RFE (Decision Tree),Fwd IAT Mean,36,4.6686686159030995e-05,decision_tree_importance_at_elimination,,3.0,4.6686686159030995e-05
+rfe_decision_tree,RFE (Decision Tree),Fwd Packet Length Mean,37,3.805700750687777e-05,decision_tree_importance_at_elimination,,3.0,3.805700750687777e-05
+rfe_decision_tree,RFE (Decision Tree),Packet Length Std,38,2.2156070136442053e-05,decision_tree_importance_at_elimination,,3.0,2.2156070136442053e-05
+rfe_decision_tree,RFE (Decision Tree),Fwd IAT Max,39,1.462810860037001e-05,decision_tree_importance_at_elimination,,3.0,1.462810860037001e-05
+rfe_decision_tree,RFE (Decision Tree),Flow Packets/s,40,1.004920193592799e-05,decision_tree_importance_at_elimination,,3.0,1.004920193592799e-05
+rfe_decision_tree,RFE (Decision Tree),Avg Fwd Segment Size,41,8.911533718593744e-07,decision_tree_importance_at_elimination,,3.0,8.911533718593744e-07
+rfe_decision_tree,RFE (Decision Tree),Total Fwd Packets,42,0.0,decision_tree_importance_at_elimination,,3.0,0.0
+rfe_decision_tree,RFE (Decision Tree),Idle Std,43,0.0,decision_tree_importance_at_elimination,,3.0,0.0
+rfe_decision_tree,RFE (Decision Tree),Idle Max,44,0.0,decision_tree_importance_at_elimination,,3.0,0.0
+rfe_decision_tree,RFE (Decision Tree),Fwd IAT Std,45,1.4516524431639843e-05,decision_tree_importance_at_elimination,,2.0,1.4516524431639843e-05
+rfe_decision_tree,RFE (Decision Tree),Active Mean,46,1.4396560096263566e-05,decision_tree_importance_at_elimination,,2.0,1.4396560096263566e-05
+rfe_decision_tree,RFE (Decision Tree),Down/Up Ratio,47,8.103918235987651e-06,decision_tree_importance_at_elimination,,2.0,8.103918235987651e-06
+rfe_decision_tree,RFE (Decision Tree),Active Max,48,4.179382438020236e-06,decision_tree_importance_at_elimination,,2.0,4.179382438020236e-06
+rfe_decision_tree,RFE (Decision Tree),Bwd IAT Std,49,1.8418193559749676e-06,decision_tree_importance_at_elimination,,2.0,1.8418193559749676e-06
+rfe_decision_tree,RFE (Decision Tree),Packet Length Mean,50,4.4835923265341645e-07,decision_tree_importance_at_elimination,,2.0,4.4835923265341645e-07
+rfe_decision_tree,RFE (Decision Tree),Subflow Bwd Packets,51,1.8008970648823805e-18,decision_tree_importance_at_elimination,,2.0,1.8008970648823805e-18
+rfe_decision_tree,RFE (Decision Tree),Total Backward Packets,52,0.0,decision_tree_importance_at_elimination,,2.0,0.0
+rfe_decision_tree,RFE (Decision Tree),Fwd IAT Total,53,0.0,decision_tree_importance_at_elimination,,2.0,0.0
+rfe_decision_tree,RFE (Decision Tree),Bwd IAT Max,54,0.0,decision_tree_importance_at_elimination,,2.0,0.0
+rfe_decision_tree,RFE (Decision Tree),Min Packet Length,55,0.0,decision_tree_importance_at_elimination,,2.0,0.0
+rfe_decision_tree,RFE (Decision Tree),Idle Mean,56,0.0,decision_tree_importance_at_elimination,,2.0,0.0
+rfe_decision_tree,RFE (Decision Tree),Total Length of Bwd Packets,57,0.0,decision_tree_importance_at_elimination,,1.0,0.0
+rfe_decision_tree,RFE (Decision Tree),Fwd Packet Length Min,58,0.0,decision_tree_importance_at_elimination,,1.0,0.0
+rfe_decision_tree,RFE (Decision Tree),Fwd PSH Flags,59,0.0,decision_tree_importance_at_elimination,,1.0,0.0
+rfe_decision_tree,RFE (Decision Tree),Bwd PSH Flags,60,0.0,decision_tree_importance_at_elimination,,1.0,0.0
+rfe_decision_tree,RFE (Decision Tree),Fwd URG Flags,61,0.0,decision_tree_importance_at_elimination,,1.0,0.0
+rfe_decision_tree,RFE (Decision Tree),SYN Flag Count,62,0.0,decision_tree_importance_at_elimination,,1.0,0.0
+rfe_decision_tree,RFE (Decision Tree),RST Flag Count,63,0.0,decision_tree_importance_at_elimination,,1.0,0.0
+rfe_decision_tree,RFE (Decision Tree),PSH Flag Count,64,0.0,decision_tree_importance_at_elimination,,1.0,0.0
+rfe_decision_tree,RFE (Decision Tree),URG Flag Count,65,0.0,decision_tree_importance_at_elimination,,1.0,0.0
+rfe_decision_tree,RFE (Decision Tree),CWE Flag Count,66,0.0,decision_tree_importance_at_elimination,,1.0,0.0
+rfe_decision_tree,RFE (Decision Tree),ECE Flag Count,67,0.0,decision_tree_importance_at_elimination,,1.0,0.0
+rfe_decision_tree,RFE (Decision Tree),Avg Bwd Segment Size,68,0.0,decision_tree_importance_at_elimination,,1.0,0.0
+rfe_decision_tree,RFE (Decision Tree),Subflow Fwd Packets,69,0.0,decision_tree_importance_at_elimination,,1.0,0.0
+rfe_decision_tree,RFE (Decision Tree),Active Std,70,0.0,decision_tree_importance_at_elimination,,1.0,0.0

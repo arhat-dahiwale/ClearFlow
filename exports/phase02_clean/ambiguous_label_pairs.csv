@@ -1,0 +1,5 @@
+label_a,label_b,conflicting_patterns,rows_label_a,rows_label_b
+Benign,PortScan,564,564,564
+Benign,DoS Hulk,129,129,129
+Benign,DDoS,3,3,3
+Benign,DoS slowloris,1,1,1

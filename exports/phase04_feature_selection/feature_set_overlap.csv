@@ -1,0 +1,101 @@
+feature_set_a,feature_set_a_name,feature_set_b,feature_set_b_name,features_in_a,features_in_b,intersection_count,union_count,jaccard_similarity
+rf_top10,Top 10 — Random Forest Importance,rf_top10,Top 10 — Random Forest Importance,10,10,10,10,1.0
+rf_top10,Top 10 — Random Forest Importance,rf_top20,Top 20 — Random Forest Importance,10,20,10,20,0.5
+rf_top10,Top 10 — Random Forest Importance,rf_top40,Top 40 — Random Forest Importance,10,40,10,40,0.25
+rf_top10,Top 10 — Random Forest Importance,anova_top10,Top 10 — ANOVA F-test,10,10,2,18,0.1111111111111111
+rf_top10,Top 10 — Random Forest Importance,anova_top20,Top 20 — ANOVA F-test,10,20,2,28,0.07142857142857142
+rf_top10,Top 10 — Random Forest Importance,anova_top40,Top 40 — ANOVA F-test,10,40,5,45,0.1111111111111111
+rf_top10,Top 10 — Random Forest Importance,rfe_top10,Top 10 — RFE (Decision Tree),10,10,4,16,0.25
+rf_top10,Top 10 — Random Forest Importance,rfe_top20,Top 20 — RFE (Decision Tree),10,20,6,24,0.25
+rf_top10,Top 10 — Random Forest Importance,rfe_top40,Top 40 — RFE (Decision Tree),10,40,8,42,0.19047619047619047
+rf_top10,Top 10 — Random Forest Importance,all_features,All 70 Features (Shared Baseline),10,70,10,70,0.14285714285714285
+rf_top20,Top 20 — Random Forest Importance,rf_top10,Top 10 — Random Forest Importance,20,10,10,20,0.5
+rf_top20,Top 20 — Random Forest Importance,rf_top20,Top 20 — Random Forest Importance,20,20,20,20,1.0
+rf_top20,Top 20 — Random Forest Importance,rf_top40,Top 40 — Random Forest Importance,20,40,20,40,0.5
+rf_top20,Top 20 — Random Forest Importance,anova_top10,Top 10 — ANOVA F-test,20,10,6,24,0.25
+rf_top20,Top 20 — Random Forest Importance,anova_top20,Top 20 — ANOVA F-test,20,20,8,32,0.25
+rf_top20,Top 20 — Random Forest Importance,anova_top40,Top 40 — ANOVA F-test,20,40,11,49,0.22448979591836735
+rf_top20,Top 20 — Random Forest Importance,rfe_top10,Top 10 — RFE (Decision Tree),20,10,5,25,0.2
+rf_top20,Top 20 — Random Forest Importance,rfe_top20,Top 20 — RFE (Decision Tree),20,20,9,31,0.2903225806451613
+rf_top20,Top 20 — Random Forest Importance,rfe_top40,Top 40 — RFE (Decision Tree),20,40,16,44,0.36363636363636365
+rf_top20,Top 20 — Random Forest Importance,all_features,All 70 Features (Shared Baseline),20,70,20,70,0.2857142857142857
+rf_top40,Top 40 — Random Forest Importance,rf_top10,Top 10 — Random Forest Importance,40,10,10,40,0.25
+rf_top40,Top 40 — Random Forest Importance,rf_top20,Top 20 — Random Forest Importance,40,20,20,40,0.5
+rf_top40,Top 40 — Random Forest Importance,rf_top40,Top 40 — Random Forest Importance,40,40,40,40,1.0
+rf_top40,Top 40 — Random Forest Importance,anova_top10,Top 10 — ANOVA F-test,40,10,9,41,0.21951219512195122
+rf_top40,Top 40 — Random Forest Importance,anova_top20,Top 20 — ANOVA F-test,40,20,15,45,0.3333333333333333
+rf_top40,Top 40 — Random Forest Importance,anova_top40,Top 40 — ANOVA F-test,40,40,23,57,0.40350877192982454
+rf_top40,Top 40 — Random Forest Importance,rfe_top10,Top 10 — RFE (Decision Tree),40,10,9,41,0.21951219512195122
+rf_top40,Top 40 — Random Forest Importance,rfe_top20,Top 20 — RFE (Decision Tree),40,20,16,44,0.36363636363636365
+rf_top40,Top 40 — Random Forest Importance,rfe_top40,Top 40 — RFE (Decision Tree),40,40,31,49,0.6326530612244898
+rf_top40,Top 40 — Random Forest Importance,all_features,All 70 Features (Shared Baseline),40,70,40,70,0.5714285714285714
+anova_top10,Top 10 — ANOVA F-test,rf_top10,Top 10 — Random Forest Importance,10,10,2,18,0.1111111111111111
+anova_top10,Top 10 — ANOVA F-test,rf_top20,Top 20 — Random Forest Importance,10,20,6,24,0.25
+anova_top10,Top 10 — ANOVA F-test,rf_top40,Top 40 — Random Forest Importance,10,40,9,41,0.21951219512195122
+anova_top10,Top 10 — ANOVA F-test,anova_top10,Top 10 — ANOVA F-test,10,10,10,10,1.0
+anova_top10,Top 10 — ANOVA F-test,anova_top20,Top 20 — ANOVA F-test,10,20,10,20,0.5
+anova_top10,Top 10 — ANOVA F-test,anova_top40,Top 40 — ANOVA F-test,10,40,10,40,0.25
+anova_top10,Top 10 — ANOVA F-test,rfe_top10,Top 10 — RFE (Decision Tree),10,10,3,17,0.17647058823529413
+anova_top10,Top 10 — ANOVA F-test,rfe_top20,Top 20 — RFE (Decision Tree),10,20,5,25,0.2
+anova_top10,Top 10 — ANOVA F-test,rfe_top40,Top 40 — RFE (Decision Tree),10,40,6,44,0.13636363636363635
+anova_top10,Top 10 — ANOVA F-test,all_features,All 70 Features (Shared Baseline),10,70,10,70,0.14285714285714285
+anova_top20,Top 20 — ANOVA F-test,rf_top10,Top 10 — Random Forest Importance,20,10,2,28,0.07142857142857142
+anova_top20,Top 20 — ANOVA F-test,rf_top20,Top 20 — Random Forest Importance,20,20,8,32,0.25
+anova_top20,Top 20 — ANOVA F-test,rf_top40,Top 40 — Random Forest Importance,20,40,15,45,0.3333333333333333
+anova_top20,Top 20 — ANOVA F-test,anova_top10,Top 10 — ANOVA F-test,20,10,10,20,0.5
+anova_top20,Top 20 — ANOVA F-test,anova_top20,Top 20 — ANOVA F-test,20,20,20,20,1.0
+anova_top20,Top 20 — ANOVA F-test,anova_top40,Top 40 — ANOVA F-test,20,40,20,40,0.5
+anova_top20,Top 20 — ANOVA F-test,rfe_top10,Top 10 — RFE (Decision Tree),20,10,4,26,0.15384615384615385
+anova_top20,Top 20 — ANOVA F-test,rfe_top20,Top 20 — RFE (Decision Tree),20,20,8,32,0.25
+anova_top20,Top 20 — ANOVA F-test,rfe_top40,Top 40 — RFE (Decision Tree),20,40,12,48,0.25
+anova_top20,Top 20 — ANOVA F-test,all_features,All 70 Features (Shared Baseline),20,70,20,70,0.2857142857142857
+anova_top40,Top 40 — ANOVA F-test,rf_top10,Top 10 — Random Forest Importance,40,10,5,45,0.1111111111111111
+anova_top40,Top 40 — ANOVA F-test,rf_top20,Top 20 — Random Forest Importance,40,20,11,49,0.22448979591836735
+anova_top40,Top 40 — ANOVA F-test,rf_top40,Top 40 — Random Forest Importance,40,40,23,57,0.40350877192982454
+anova_top40,Top 40 — ANOVA F-test,anova_top10,Top 10 — ANOVA F-test,40,10,10,40,0.25
+anova_top40,Top 40 — ANOVA F-test,anova_top20,Top 20 — ANOVA F-test,40,20,20,40,0.5
+anova_top40,Top 40 — ANOVA F-test,anova_top40,Top 40 — ANOVA F-test,40,40,40,40,1.0
+anova_top40,Top 40 — ANOVA F-test,rfe_top10,Top 10 — RFE (Decision Tree),40,10,7,43,0.16279069767441862
+anova_top40,Top 40 — ANOVA F-test,rfe_top20,Top 20 — RFE (Decision Tree),40,20,15,45,0.3333333333333333
+anova_top40,Top 40 — ANOVA F-test,rfe_top40,Top 40 — RFE (Decision Tree),40,40,25,55,0.45454545454545453
+anova_top40,Top 40 — ANOVA F-test,all_features,All 70 Features (Shared Baseline),40,70,40,70,0.5714285714285714
+rfe_top10,Top 10 — RFE (Decision Tree),rf_top10,Top 10 — Random Forest Importance,10,10,4,16,0.25
+rfe_top10,Top 10 — RFE (Decision Tree),rf_top20,Top 20 — Random Forest Importance,10,20,5,25,0.2
+rfe_top10,Top 10 — RFE (Decision Tree),rf_top40,Top 40 — Random Forest Importance,10,40,9,41,0.21951219512195122
+rfe_top10,Top 10 — RFE (Decision Tree),anova_top10,Top 10 — ANOVA F-test,10,10,3,17,0.17647058823529413
+rfe_top10,Top 10 — RFE (Decision Tree),anova_top20,Top 20 — ANOVA F-test,10,20,4,26,0.15384615384615385
+rfe_top10,Top 10 — RFE (Decision Tree),anova_top40,Top 40 — ANOVA F-test,10,40,7,43,0.16279069767441862
+rfe_top10,Top 10 — RFE (Decision Tree),rfe_top10,Top 10 — RFE (Decision Tree),10,10,10,10,1.0
+rfe_top10,Top 10 — RFE (Decision Tree),rfe_top20,Top 20 — RFE (Decision Tree),10,20,10,20,0.5
+rfe_top10,Top 10 — RFE (Decision Tree),rfe_top40,Top 40 — RFE (Decision Tree),10,40,10,40,0.25
+rfe_top10,Top 10 — RFE (Decision Tree),all_features,All 70 Features (Shared Baseline),10,70,10,70,0.14285714285714285
+rfe_top20,Top 20 — RFE (Decision Tree),rf_top10,Top 10 — Random Forest Importance,20,10,6,24,0.25
+rfe_top20,Top 20 — RFE (Decision Tree),rf_top20,Top 20 — Random Forest Importance,20,20,9,31,0.2903225806451613
+rfe_top20,Top 20 — RFE (Decision Tree),rf_top40,Top 40 — Random Forest Importance,20,40,16,44,0.36363636363636365
+rfe_top20,Top 20 — RFE (Decision Tree),anova_top10,Top 10 — ANOVA F-test,20,10,5,25,0.2
+rfe_top20,Top 20 — RFE (Decision Tree),anova_top20,Top 20 — ANOVA F-test,20,20,8,32,0.25
+rfe_top20,Top 20 — RFE (Decision Tree),anova_top40,Top 40 — ANOVA F-test,20,40,15,45,0.3333333333333333
+rfe_top20,Top 20 — RFE (Decision Tree),rfe_top10,Top 10 — RFE (Decision Tree),20,10,10,20,0.5
+rfe_top20,Top 20 — RFE (Decision Tree),rfe_top20,Top 20 — RFE (Decision Tree),20,20,20,20,1.0
+rfe_top20,Top 20 — RFE (Decision Tree),rfe_top40,Top 40 — RFE (Decision Tree),20,40,20,40,0.5
+rfe_top20,Top 20 — RFE (Decision Tree),all_features,All 70 Features (Shared Baseline),20,70,20,70,0.2857142857142857
+rfe_top40,Top 40 — RFE (Decision Tree),rf_top10,Top 10 — Random Forest Importance,40,10,8,42,0.19047619047619047
+rfe_top40,Top 40 — RFE (Decision Tree),rf_top20,Top 20 — Random Forest Importance,40,20,16,44,0.36363636363636365
+rfe_top40,Top 40 — RFE (Decision Tree),rf_top40,Top 40 — Random Forest Importance,40,40,31,49,0.6326530612244898
+rfe_top40,Top 40 — RFE (Decision Tree),anova_top10,Top 10 — ANOVA F-test,40,10,6,44,0.13636363636363635
+rfe_top40,Top 40 — RFE (Decision Tree),anova_top20,Top 20 — ANOVA F-test,40,20,12,48,0.25
+rfe_top40,Top 40 — RFE (Decision Tree),anova_top40,Top 40 — ANOVA F-test,40,40,25,55,0.45454545454545453
+rfe_top40,Top 40 — RFE (Decision Tree),rfe_top10,Top 10 — RFE (Decision Tree),40,10,10,40,0.25
+rfe_top40,Top 40 — RFE (Decision Tree),rfe_top20,Top 20 — RFE (Decision Tree),40,20,20,40,0.5
+rfe_top40,Top 40 — RFE (Decision Tree),rfe_top40,Top 40 — RFE (Decision Tree),40,40,40,40,1.0
+rfe_top40,Top 40 — RFE (Decision Tree),all_features,All 70 Features (Shared Baseline),40,70,40,70,0.5714285714285714
+all_features,All 70 Features (Shared Baseline),rf_top10,Top 10 — Random Forest Importance,70,10,10,70,0.14285714285714285
+all_features,All 70 Features (Shared Baseline),rf_top20,Top 20 — Random Forest Importance,70,20,20,70,0.2857142857142857
+all_features,All 70 Features (Shared Baseline),rf_top40,Top 40 — Random Forest Importance,70,40,40,70,0.5714285714285714
+all_features,All 70 Features (Shared Baseline),anova_top10,Top 10 — ANOVA F-test,70,10,10,70,0.14285714285714285
+all_features,All 70 Features (Shared Baseline),anova_top20,Top 20 — ANOVA F-test,70,20,20,70,0.2857142857142857
+all_features,All 70 Features (Shared Baseline),anova_top40,Top 40 — ANOVA F-test,70,40,40,70,0.5714285714285714
+all_features,All 70 Features (Shared Baseline),rfe_top10,Top 10 — RFE (Decision Tree),70,10,10,70,0.14285714285714285
+all_features,All 70 Features (Shared Baseline),rfe_top20,Top 20 — RFE (Decision Tree),70,20,20,70,0.2857142857142857
+all_features,All 70 Features (Shared Baseline),rfe_top40,Top 40 — RFE (Decision Tree),70,40,40,70,0.5714285714285714
+all_features,All 70 Features (Shared Baseline),all_features,All 70 Features (Shared Baseline),70,70,70,70,1.0

@@ -1,0 +1,11 @@
+set_order,feature_set_id,feature_set_name,selection_method,selection_method_display,requested_feature_count,feature_count
+1,rf_top10,Top 10 — Random Forest Importance,rf_importance,Random Forest Importance,10,10
+2,rf_top20,Top 20 — Random Forest Importance,rf_importance,Random Forest Importance,20,20
+3,rf_top40,Top 40 — Random Forest Importance,rf_importance,Random Forest Importance,40,40
+4,anova_top10,Top 10 — ANOVA F-test,anova_f_test,ANOVA F-test,10,10
+5,anova_top20,Top 20 — ANOVA F-test,anova_f_test,ANOVA F-test,20,20
+6,anova_top40,Top 40 — ANOVA F-test,anova_f_test,ANOVA F-test,40,40
+7,rfe_top10,Top 10 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),10,10
+8,rfe_top20,Top 20 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),20,20
+9,rfe_top40,Top 40 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),40,40
+10,all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,70

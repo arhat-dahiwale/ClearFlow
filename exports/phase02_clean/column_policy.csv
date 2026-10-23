@@ -1,0 +1,4 @@
+column,decision,reason
+Destination Port,retained,Retained after sensitivity audit; excluding it increased ambiguous feature vectors substantially.
+Fwd Header Length.1,excluded,Exact duplicate of Fwd Header Length in all eight CICIDS-2017 files.
+"Flow ID, Src IP, Dst IP, Src Port, Protocol, Timestamp",excluded,"Identifiers or metadata, not retained as model features."

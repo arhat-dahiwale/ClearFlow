@@ -1,0 +1,4 @@
+dataset,raw_rows,missing_label_rows,excluded_class_rows,invalid_feature_rows,eligible_before_dedup,exact_duplicate_rows_removed,rows_after_exact_dedup,conflicting_feature_rows_removed,rows_after_conflict_removal,final_rows
+CICIDS-2017,2830743,0,47,2867,2827829,307078,2520751,1394,2519357,2519357
+SDN TCP-SYN,6234,1,0,0,6233,0,6233,0,6233,6233
+ALL,2836977,1,47,2867,2834062,307078,2526984,1394,2525590,2525590

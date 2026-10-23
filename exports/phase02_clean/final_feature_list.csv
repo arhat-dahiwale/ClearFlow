@@ -1,0 +1,78 @@
+feature,retained_after_zero_variance_filter,decision
+Destination Port,True,retained
+Flow Duration,True,retained
+Total Fwd Packets,True,retained
+Total Backward Packets,True,retained
+Total Length of Fwd Packets,True,retained
+Total Length of Bwd Packets,True,retained
+Fwd Packet Length Max,True,retained
+Fwd Packet Length Min,True,retained
+Fwd Packet Length Mean,True,retained
+Fwd Packet Length Std,True,retained
+Bwd Packet Length Max,True,retained
+Bwd Packet Length Min,True,retained
+Bwd Packet Length Mean,True,retained
+Bwd Packet Length Std,True,retained
+Flow Bytes/s,True,retained
+Flow Packets/s,True,retained
+Flow IAT Mean,True,retained
+Flow IAT Std,True,retained
+Flow IAT Max,True,retained
+Flow IAT Min,True,retained
+Fwd IAT Total,True,retained
+Fwd IAT Mean,True,retained
+Fwd IAT Std,True,retained
+Fwd IAT Max,True,retained
+Fwd IAT Min,True,retained
+Bwd IAT Total,True,retained
+Bwd IAT Mean,True,retained
+Bwd IAT Std,True,retained
+Bwd IAT Max,True,retained
+Bwd IAT Min,True,retained
+Fwd PSH Flags,True,retained
+Bwd PSH Flags,True,retained
+Fwd URG Flags,True,retained
+Bwd URG Flags,False,removed: zero variance
+Fwd Header Length,True,retained
+Bwd Header Length,True,retained
+Fwd Packets/s,True,retained
+Bwd Packets/s,True,retained
+Min Packet Length,True,retained
+Max Packet Length,True,retained
+Packet Length Mean,True,retained
+Packet Length Std,True,retained
+Packet Length Variance,True,retained
+FIN Flag Count,True,retained
+SYN Flag Count,True,retained
+RST Flag Count,True,retained
+PSH Flag Count,True,retained
+ACK Flag Count,True,retained
+URG Flag Count,True,retained
+CWE Flag Count,True,retained
+ECE Flag Count,True,retained
+Down/Up Ratio,True,retained
+Average Packet Size,True,retained
+Avg Fwd Segment Size,True,retained
+Avg Bwd Segment Size,True,retained
+Fwd Avg Bytes/Bulk,False,removed: zero variance
+Fwd Avg Packets/Bulk,False,removed: zero variance
+Fwd Avg Bulk Rate,False,removed: zero variance
+Bwd Avg Bytes/Bulk,False,removed: zero variance
+Bwd Avg Packets/Bulk,False,removed: zero variance
+Bwd Avg Bulk Rate,False,removed: zero variance
+Subflow Fwd Packets,True,retained
+Subflow Fwd Bytes,True,retained
+Subflow Bwd Packets,True,retained
+Subflow Bwd Bytes,True,retained
+Init_Win_bytes_forward,True,retained
+Init_Win_bytes_backward,True,retained
+act_data_pkt_fwd,True,retained
+min_seg_size_forward,True,retained
+Active Mean,True,retained
+Active Std,True,retained
+Active Max,True,retained
+Active Min,True,retained
+Idle Mean,True,retained
+Idle Std,True,retained
+Idle Max,True,retained
+Idle Min,True,retained

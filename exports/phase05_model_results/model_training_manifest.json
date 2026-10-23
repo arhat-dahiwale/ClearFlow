@@ -1,0 +1,118 @@
+{
+  "phase": "05_model_training",
+  "seed_master_random_state": 20261022,
+  "seed_selection_note": "Five distinct seeds were generated reproducibly from NumPy default_rng with the master seed, then fixed explicitly for this experiment.",
+  "seeds": [
+    425828,
+    142707,
+    692819,
+    2184,
+    136548
+  ],
+  "sample_random_state": 42,
+  "max_rows_per_class": 10000,
+  "chunk_size": 100000,
+  "target_column": "Label",
+  "model_feature_count": 70,
+  "class_order": [
+    "Benign",
+    "Bot",
+    "DDoS",
+    "DoS GoldenEye",
+    "DoS Hulk",
+    "DoS Slowhttptest",
+    "DoS slowloris",
+    "FTP-Patator",
+    "PortScan",
+    "SSH-Patator",
+    "SYN Flood",
+    "Web Attack"
+  ],
+  "feature_sets": [
+    {
+      "feature_set_id": "rf_top10",
+      "feature_set_name": "Top 10 \u2014 Random Forest Importance",
+      "selection_method": "rf_importance",
+      "feature_count": 10
+    },
+    {
+      "feature_set_id": "rf_top20",
+      "feature_set_name": "Top 20 \u2014 Random Forest Importance",
+      "selection_method": "rf_importance",
+      "feature_count": 20
+    },
+    {
+      "feature_set_id": "rf_top40",
+      "feature_set_name": "Top 40 \u2014 Random Forest Importance",
+      "selection_method": "rf_importance",
+      "feature_count": 40
+    },
+    {
+      "feature_set_id": "anova_top10",
+      "feature_set_name": "Top 10 \u2014 ANOVA F-test",
+      "selection_method": "anova_f_test",
+      "feature_count": 10
+    },
+    {
+      "feature_set_id": "anova_top20",
+      "feature_set_name": "Top 20 \u2014 ANOVA F-test",
+      "selection_method": "anova_f_test",
+      "feature_count": 20
+    },
+    {
+      "feature_set_id": "anova_top40",
+      "feature_set_name": "Top 40 \u2014 ANOVA F-test",
+      "selection_method": "anova_f_test",
+      "feature_count": 40
+    },
+    {
+      "feature_set_id": "rfe_top10",
+      "feature_set_name": "Top 10 \u2014 RFE (Decision Tree)",
+      "selection_method": "rfe_decision_tree",
+      "feature_count": 10
+    },
+    {
+      "feature_set_id": "rfe_top20",
+      "feature_set_name": "Top 20 \u2014 RFE (Decision Tree)",
+      "selection_method": "rfe_decision_tree",
+      "feature_count": 20
+    },
+    {
+      "feature_set_id": "rfe_top40",
+      "feature_set_name": "Top 40 \u2014 RFE (Decision Tree)",
+      "selection_method": "rfe_decision_tree",
+      "feature_count": 40
+    },
+    {
+      "feature_set_id": "all_features",
+      "feature_set_name": "All 70 Features (Shared Baseline)",
+      "selection_method": "shared_all_features",
+      "feature_count": 70
+    }
+  ],
+  "models": [
+    {
+      "model_id": "decision_tree",
+      "model_name": "Decision Tree"
+    },
+    {
+      "model_id": "random_forest",
+      "model_name": "Random Forest"
+    },
+    {
+      "model_id": "xgboost",
+      "model_name": "XGBoost"
+    },
+    {
+      "model_id": "logistic_regression",
+      "model_name": "Logistic Regression"
+    }
+  ],
+  "expected_configuration_count": 200,
+  "completed_configuration_count": 200,
+  "training_sample_path": "data\\processed\\model_training_sample.csv.gz",
+  "summary_path": "exports\\phase05_model_results\\experiment_summary.csv",
+  "per_class_metrics_path": "exports\\phase05_model_results\\per_class_metrics.csv",
+  "confusion_matrix_path": "exports\\phase05_model_results\\confusion_matrix_long.csv",
+  "memory_measurement": "Peak process RSS sampled every 0.05 seconds during fit and predict; RAM values include process and resident data, not model-only allocation."
+}

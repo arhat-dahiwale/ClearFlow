@@ -1,0 +1,203 @@
+{
+  "phase": "04_feature_selection",
+  "input_training_split": "data\\processed\\train.csv.gz",
+  "test_split_read": false,
+  "test_split_used_for_selection": false,
+  "target_column": "Label",
+  "input_feature_count": 70,
+  "input_features": [
+    "Destination Port",
+    "Flow Duration",
+    "Total Fwd Packets",
+    "Total Backward Packets",
+    "Total Length of Fwd Packets",
+    "Total Length of Bwd Packets",
+    "Fwd Packet Length Max",
+    "Fwd Packet Length Min",
+    "Fwd Packet Length Mean",
+    "Fwd Packet Length Std",
+    "Bwd Packet Length Max",
+    "Bwd Packet Length Min",
+    "Bwd Packet Length Mean",
+    "Bwd Packet Length Std",
+    "Flow Bytes/s",
+    "Flow Packets/s",
+    "Flow IAT Mean",
+    "Flow IAT Std",
+    "Flow IAT Max",
+    "Flow IAT Min",
+    "Fwd IAT Total",
+    "Fwd IAT Mean",
+    "Fwd IAT Std",
+    "Fwd IAT Max",
+    "Fwd IAT Min",
+    "Bwd IAT Total",
+    "Bwd IAT Mean",
+    "Bwd IAT Std",
+    "Bwd IAT Max",
+    "Bwd IAT Min",
+    "Fwd PSH Flags",
+    "Bwd PSH Flags",
+    "Fwd URG Flags",
+    "Fwd Header Length",
+    "Bwd Header Length",
+    "Fwd Packets/s",
+    "Bwd Packets/s",
+    "Min Packet Length",
+    "Max Packet Length",
+    "Packet Length Mean",
+    "Packet Length Std",
+    "Packet Length Variance",
+    "FIN Flag Count",
+    "SYN Flag Count",
+    "RST Flag Count",
+    "PSH Flag Count",
+    "ACK Flag Count",
+    "URG Flag Count",
+    "CWE Flag Count",
+    "ECE Flag Count",
+    "Down/Up Ratio",
+    "Average Packet Size",
+    "Avg Fwd Segment Size",
+    "Avg Bwd Segment Size",
+    "Subflow Fwd Packets",
+    "Subflow Fwd Bytes",
+    "Subflow Bwd Packets",
+    "Subflow Bwd Bytes",
+    "Init_Win_bytes_forward",
+    "Init_Win_bytes_backward",
+    "act_data_pkt_fwd",
+    "min_seg_size_forward",
+    "Active Mean",
+    "Active Std",
+    "Active Max",
+    "Active Min",
+    "Idle Mean",
+    "Idle Std",
+    "Idle Max",
+    "Idle Min"
+  ],
+  "training_rows_scanned": 2020546,
+  "selection_sample_rows": 70245,
+  "selection_sample_strategy": "Uniform per-class reservoir sample drawn from the training split only; up to max_rows_per_class rows per class. The same sample is used for all selectors.",
+  "max_rows_per_class": 10000,
+  "sample_random_state": 42,
+  "rfe_step_fraction": 0.2,
+  "methods": [
+    {
+      "id": "rf_importance",
+      "name": "Random Forest Importance",
+      "implementation": "RandomForestClassifier feature_importances_",
+      "parameters": {
+        "n_estimators": 200,
+        "max_features": "sqrt",
+        "min_samples_leaf": 2,
+        "class_weight": "balanced_subsample",
+        "random_state": 42
+      }
+    },
+    {
+      "id": "anova_f_test",
+      "name": "ANOVA F-test",
+      "implementation": "sklearn.feature_selection.f_classif",
+      "notes": "Selected instead of chi-square because features are continuous and need not be non-negative."
+    },
+    {
+      "id": "rfe_decision_tree",
+      "name": "RFE (Decision Tree)",
+      "implementation": "Recursive elimination using DecisionTreeClassifier feature_importances_",
+      "parameters": {
+        "max_depth": 18,
+        "min_samples_leaf": 5,
+        "class_weight": "balanced",
+        "step_fraction": 0.2,
+        "random_state": 42
+      }
+    }
+  ],
+  "feature_set_sizes": [
+    10,
+    20,
+    40
+  ],
+  "feature_set_count": 10,
+  "feature_sets": [
+    {
+      "feature_set_id": "rf_top10",
+      "feature_set_name": "Top 10 \u2014 Random Forest Importance",
+      "feature_count": 10,
+      "selection_method": "rf_importance"
+    },
+    {
+      "feature_set_id": "rf_top20",
+      "feature_set_name": "Top 20 \u2014 Random Forest Importance",
+      "feature_count": 20,
+      "selection_method": "rf_importance"
+    },
+    {
+      "feature_set_id": "rf_top40",
+      "feature_set_name": "Top 40 \u2014 Random Forest Importance",
+      "feature_count": 40,
+      "selection_method": "rf_importance"
+    },
+    {
+      "feature_set_id": "anova_top10",
+      "feature_set_name": "Top 10 \u2014 ANOVA F-test",
+      "feature_count": 10,
+      "selection_method": "anova_f_test"
+    },
+    {
+      "feature_set_id": "anova_top20",
+      "feature_set_name": "Top 20 \u2014 ANOVA F-test",
+      "feature_count": 20,
+      "selection_method": "anova_f_test"
+    },
+    {
+      "feature_set_id": "anova_top40",
+      "feature_set_name": "Top 40 \u2014 ANOVA F-test",
+      "feature_count": 40,
+      "selection_method": "anova_f_test"
+    },
+    {
+      "feature_set_id": "rfe_top10",
+      "feature_set_name": "Top 10 \u2014 RFE (Decision Tree)",
+      "feature_count": 10,
+      "selection_method": "rfe_decision_tree"
+    },
+    {
+      "feature_set_id": "rfe_top20",
+      "feature_set_name": "Top 20 \u2014 RFE (Decision Tree)",
+      "feature_count": 20,
+      "selection_method": "rfe_decision_tree"
+    },
+    {
+      "feature_set_id": "rfe_top40",
+      "feature_set_name": "Top 40 \u2014 RFE (Decision Tree)",
+      "feature_count": 40,
+      "selection_method": "rfe_decision_tree"
+    },
+    {
+      "feature_set_id": "all_features",
+      "feature_set_name": "All 70 Features (Shared Baseline)",
+      "feature_count": 70,
+      "selection_method": "shared_all_features"
+    }
+  ],
+  "outputs": {
+    "feature_rankings_long": "exports/phase04_feature_selection/feature_rankings_long.csv",
+    "feature_rankings_wide": "exports/phase04_feature_selection/feature_rankings_wide.csv",
+    "feature_sets_long": "exports/phase04_feature_selection/feature_sets_long.csv",
+    "feature_set_summary": "exports/phase04_feature_selection/feature_set_summary.csv",
+    "feature_set_overlap": "exports/phase04_feature_selection/feature_set_overlap.csv",
+    "selection_sample_summary": "exports/phase04_feature_selection/selection_sample_summary.csv",
+    "feature_sets_json": "exports/phase04_feature_selection/feature_sets.json"
+  },
+  "caveats": [
+    "Selection uses a capped sample of the training split, not every training row.",
+    "The capped sample reduces dominance by the largest class and keeps selector memory use bounded.",
+    "ANOVA ranks features independently and does not model feature interactions.",
+    "Random Forest impurity importance can favor features with many possible split points.",
+    "RFE rankings are relative to the Decision Tree estimator and configured elimination step.",
+    "The shared all-feature baseline uses Phase 3 feature order and is not method-specific."
+  ]
+}

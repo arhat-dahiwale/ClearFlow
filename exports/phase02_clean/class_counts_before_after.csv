@@ -1,0 +1,43 @@
+stage,dataset,source_file,class,flow_count,file_rows,percentage_of_file
+Raw (harmonized labels),CICIDS-2017,Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv,DDoS,128027,225745,56.71310549513832
+Raw (harmonized labels),CICIDS-2017,Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv,Benign,97718,225745,43.28689450486168
+Raw (harmonized labels),CICIDS-2017,Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv,Benign,127537,286467,44.52066032038594
+Raw (harmonized labels),CICIDS-2017,Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv,PortScan,158930,286467,55.47933967961406
+Raw (harmonized labels),CICIDS-2017,Friday-WorkingHours-Morning.pcap_ISCX.csv,Benign,189067,191033,98.9708584380709
+Raw (harmonized labels),CICIDS-2017,Friday-WorkingHours-Morning.pcap_ISCX.csv,Bot,1966,191033,1.0291415619290907
+Raw (harmonized labels),CICIDS-2017,Monday-WorkingHours.pcap_ISCX.csv,Benign,529918,529918,100.0
+Raw (harmonized labels),CICIDS-2017,Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv,Benign,288566,288602,99.98752607397039
+Raw (harmonized labels),CICIDS-2017,Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv,Infiltration,36,288602,0.012473926029618644
+Raw (harmonized labels),CICIDS-2017,Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv,Benign,168186,170366,98.72040195813719
+Raw (harmonized labels),CICIDS-2017,Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv,Web Attack,2180,170366,1.279598041862813
+Raw (harmonized labels),CICIDS-2017,Tuesday-WorkingHours.pcap_ISCX.csv,Benign,432074,445909,96.89734901067258
+Raw (harmonized labels),CICIDS-2017,Tuesday-WorkingHours.pcap_ISCX.csv,FTP-Patator,7938,445909,1.7801838491710191
+Raw (harmonized labels),CICIDS-2017,Tuesday-WorkingHours.pcap_ISCX.csv,SSH-Patator,5897,445909,1.3224671401563997
+Raw (harmonized labels),CICIDS-2017,Wednesday-workingHours.pcap_ISCX.csv,Benign,440031,692703,63.52376126565065
+Raw (harmonized labels),CICIDS-2017,Wednesday-workingHours.pcap_ISCX.csv,DoS Hulk,231073,692703,33.358163599695686
+Raw (harmonized labels),CICIDS-2017,Wednesday-workingHours.pcap_ISCX.csv,DoS slowloris,5796,692703,0.8367222316057531
+Raw (harmonized labels),CICIDS-2017,Wednesday-workingHours.pcap_ISCX.csv,DoS Slowhttptest,5499,692703,0.7938467135265763
+Raw (harmonized labels),CICIDS-2017,Wednesday-workingHours.pcap_ISCX.csv,DoS GoldenEye,10293,692703,1.4859182073702581
+Raw (harmonized labels),CICIDS-2017,Wednesday-workingHours.pcap_ISCX.csv,Heartbleed,11,692703,0.001587982151080622
+Raw (harmonized labels),SDN TCP-SYN,TCP-SYNC DATASET.csv,SYN Flood,3554,6234,57.00994546037857
+Raw (harmonized labels),SDN TCP-SYN,TCP-SYNC DATASET.csv,Benign,2679,6234,42.974013474494704
+Cleaned,CICIDS-2017,Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv,Benign,95064,223075,42.615263924689
+Cleaned,CICIDS-2017,Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv,DDoS,128011,223075,57.384736075311
+Cleaned,CICIDS-2017,Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv,Benign,121554,211684,57.42238430868653
+Cleaned,CICIDS-2017,Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv,PortScan,90130,211684,42.57761569131347
+Cleaned,CICIDS-2017,Friday-WorkingHours-Morning.pcap_ISCX.csv,Benign,178139,180087,98.91830059915485
+Cleaned,CICIDS-2017,Friday-WorkingHours-Morning.pcap_ISCX.csv,Bot,1948,180087,1.081699400845147
+Cleaned,CICIDS-2017,Monday-WorkingHours.pcap_ISCX.csv,Benign,502462,502462,100.0
+Cleaned,CICIDS-2017,Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv,Benign,245215,245215,100.0
+Cleaned,CICIDS-2017,Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv,Benign,154428,156571,98.6312918739741
+Cleaned,CICIDS-2017,Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv,Web Attack,2143,156571,1.3687081260258924
+Cleaned,CICIDS-2017,Tuesday-WorkingHours.pcap_ISCX.csv,Benign,400805,409955,97.76804771255382
+Cleaned,CICIDS-2017,Tuesday-WorkingHours.pcap_ISCX.csv,FTP-Patator,5931,409955,1.4467441548462636
+Cleaned,CICIDS-2017,Tuesday-WorkingHours.pcap_ISCX.csv,SSH-Patator,3219,409955,0.7852081325999195
+Cleaned,CICIDS-2017,Wednesday-workingHours.pcap_ISCX.csv,Benign,396693,590308,67.2010204842218
+Cleaned,CICIDS-2017,Wednesday-workingHours.pcap_ISCX.csv,DoS slowloris,5384,590308,0.9120662433848092
+Cleaned,CICIDS-2017,Wednesday-workingHours.pcap_ISCX.csv,DoS Slowhttptest,5228,590308,0.8856393611470622
+Cleaned,CICIDS-2017,Wednesday-workingHours.pcap_ISCX.csv,DoS Hulk,172717,590308,29.2587937144677
+Cleaned,CICIDS-2017,Wednesday-workingHours.pcap_ISCX.csv,DoS GoldenEye,10286,590308,1.7424801967786308
+Cleaned,SDN TCP-SYN,TCP-SYNC DATASET.csv,Benign,2679,6233,42.98090806995027
+Cleaned,SDN TCP-SYN,TCP-SYNC DATASET.csv,SYN Flood,3554,6233,57.01909193004973

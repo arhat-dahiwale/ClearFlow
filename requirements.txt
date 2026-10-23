@@ -7,6 +7,7 @@ matplotlib==3.9.2
 seaborn==0.13.2
 
 # Machine learning and class balancing
+xgboost==3.4.1
 scikit-learn==1.5.2
 imbalanced-learn==0.12.4
 joblib==1.4.2
@@ -18,3 +19,5 @@ psutil==6.1.0
 # Notebooks and testing
 ipykernel==6.29.5
 pytest==8.3.3
+
+xgboost==3.4.1

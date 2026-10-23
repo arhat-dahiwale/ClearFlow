@@ -1,0 +1,13 @@
+Label,train_rows,selection_sample_rows,sample_pct_of_class,max_rows_per_class,cap_reached
+Benign,1677531,10000,0.5961141701703278,10000,True
+Bot,1580,1580,100.0,10000,False
+DDoS,102474,10000,9.758572906298182,10000,True
+DoS GoldenEye,8191,8191,100.0,10000,False
+DoS Hulk,138293,10000,7.231023985306559,10000,True
+DoS Slowhttptest,4168,4168,100.0,10000,False
+DoS slowloris,4317,4317,100.0,10000,False
+FTP-Patator,4751,4751,100.0,10000,False
+PortScan,72003,10000,13.888310209296835,10000,True
+SSH-Patator,2614,2614,100.0,10000,False
+SYN Flood,2909,2909,100.0,10000,False
+Web Attack,1715,1715,100.0,10000,False

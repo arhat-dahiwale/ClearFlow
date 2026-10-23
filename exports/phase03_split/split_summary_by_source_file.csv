@@ -1,0 +1,19 @@
+split,dataset,source_file,rows
+test,CICIDS-2017,Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv,44475
+test,CICIDS-2017,Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv,42429
+test,CICIDS-2017,Friday-WorkingHours-Morning.pcap_ISCX.csv,36067
+test,CICIDS-2017,Monday-WorkingHours.pcap_ISCX.csv,100243
+test,CICIDS-2017,Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv,49274
+test,CICIDS-2017,Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv,31301
+test,CICIDS-2017,Tuesday-WorkingHours.pcap_ISCX.csv,82200
+test,CICIDS-2017,Wednesday-workingHours.pcap_ISCX.csv,117881
+test,SDN TCP-SYN,TCP-SYNC DATASET.csv,1174
+train,CICIDS-2017,Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv,178600
+train,CICIDS-2017,Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv,169255
+train,CICIDS-2017,Friday-WorkingHours-Morning.pcap_ISCX.csv,144020
+train,CICIDS-2017,Monday-WorkingHours.pcap_ISCX.csv,402219
+train,CICIDS-2017,Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv,195941
+train,CICIDS-2017,Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv,125270
+train,CICIDS-2017,Tuesday-WorkingHours.pcap_ISCX.csv,327755
+train,CICIDS-2017,Wednesday-workingHours.pcap_ISCX.csv,472427
+train,SDN TCP-SYN,TCP-SYNC DATASET.csv,5059

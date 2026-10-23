@@ -1,0 +1,13 @@
+label,rows_seen_in_train_split,rows_in_training_sample,cap_per_class
+Benign,1677531,10000,10000
+Bot,1580,1580,10000
+DDoS,102474,10000,10000
+DoS GoldenEye,8191,8191,10000
+DoS Hulk,138293,10000,10000
+DoS Slowhttptest,4168,4168,10000
+DoS slowloris,4317,4317,10000
+FTP-Patator,4751,4751,10000
+PortScan,72003,10000,10000
+SSH-Patator,2614,2614,10000
+SYN Flood,2909,2909,10000
+Web Attack,1715,1715,10000

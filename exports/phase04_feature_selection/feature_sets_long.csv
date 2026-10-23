@@ -1,0 +1,281 @@
+feature_set_id,feature_set_name,selection_method,selection_method_display,feature_count,feature,feature_rank
+rf_top10,Top 10 — Random Forest Importance,rf_importance,Random Forest Importance,10,Destination Port,1
+rf_top10,Top 10 — Random Forest Importance,rf_importance,Random Forest Importance,10,Init_Win_bytes_backward,2
+rf_top10,Top 10 — Random Forest Importance,rf_importance,Random Forest Importance,10,min_seg_size_forward,3
+rf_top10,Top 10 — Random Forest Importance,rf_importance,Random Forest Importance,10,Init_Win_bytes_forward,4
+rf_top10,Top 10 — Random Forest Importance,rf_importance,Random Forest Importance,10,Bwd Packets/s,5
+rf_top10,Top 10 — Random Forest Importance,rf_importance,Random Forest Importance,10,Bwd Header Length,6
+rf_top10,Top 10 — Random Forest Importance,rf_importance,Random Forest Importance,10,Fwd Packet Length Max,7
+rf_top10,Top 10 — Random Forest Importance,rf_importance,Random Forest Importance,10,Subflow Bwd Packets,8
+rf_top10,Top 10 — Random Forest Importance,rf_importance,Random Forest Importance,10,Flow IAT Mean,9
+rf_top10,Top 10 — Random Forest Importance,rf_importance,Random Forest Importance,10,Packet Length Mean,10
+rf_top20,Top 20 — Random Forest Importance,rf_importance,Random Forest Importance,20,Destination Port,1
+rf_top20,Top 20 — Random Forest Importance,rf_importance,Random Forest Importance,20,Init_Win_bytes_backward,2
+rf_top20,Top 20 — Random Forest Importance,rf_importance,Random Forest Importance,20,min_seg_size_forward,3
+rf_top20,Top 20 — Random Forest Importance,rf_importance,Random Forest Importance,20,Init_Win_bytes_forward,4
+rf_top20,Top 20 — Random Forest Importance,rf_importance,Random Forest Importance,20,Bwd Packets/s,5
+rf_top20,Top 20 — Random Forest Importance,rf_importance,Random Forest Importance,20,Bwd Header Length,6
+rf_top20,Top 20 — Random Forest Importance,rf_importance,Random Forest Importance,20,Fwd Packet Length Max,7
+rf_top20,Top 20 — Random Forest Importance,rf_importance,Random Forest Importance,20,Subflow Bwd Packets,8
+rf_top20,Top 20 — Random Forest Importance,rf_importance,Random Forest Importance,20,Flow IAT Mean,9
+rf_top20,Top 20 — Random Forest Importance,rf_importance,Random Forest Importance,20,Packet Length Mean,10
+rf_top20,Top 20 — Random Forest Importance,rf_importance,Random Forest Importance,20,Avg Bwd Segment Size,11
+rf_top20,Top 20 — Random Forest Importance,rf_importance,Random Forest Importance,20,Total Backward Packets,12
+rf_top20,Top 20 — Random Forest Importance,rf_importance,Random Forest Importance,20,Flow IAT Max,13
+rf_top20,Top 20 — Random Forest Importance,rf_importance,Random Forest Importance,20,Average Packet Size,14
+rf_top20,Top 20 — Random Forest Importance,rf_importance,Random Forest Importance,20,Total Length of Fwd Packets,15
+rf_top20,Top 20 — Random Forest Importance,rf_importance,Random Forest Importance,20,Flow Packets/s,16
+rf_top20,Top 20 — Random Forest Importance,rf_importance,Random Forest Importance,20,Flow Duration,17
+rf_top20,Top 20 — Random Forest Importance,rf_importance,Random Forest Importance,20,Max Packet Length,18
+rf_top20,Top 20 — Random Forest Importance,rf_importance,Random Forest Importance,20,Packet Length Std,19
+rf_top20,Top 20 — Random Forest Importance,rf_importance,Random Forest Importance,20,Subflow Fwd Bytes,20
+rf_top40,Top 40 — Random Forest Importance,rf_importance,Random Forest Importance,40,Destination Port,1
+rf_top40,Top 40 — Random Forest Importance,rf_importance,Random Forest Importance,40,Init_Win_bytes_backward,2
+rf_top40,Top 40 — Random Forest Importance,rf_importance,Random Forest Importance,40,min_seg_size_forward,3
+rf_top40,Top 40 — Random Forest Importance,rf_importance,Random Forest Importance,40,Init_Win_bytes_forward,4
+rf_top40,Top 40 — Random Forest Importance,rf_importance,Random Forest Importance,40,Bwd Packets/s,5
+rf_top40,Top 40 — Random Forest Importance,rf_importance,Random Forest Importance,40,Bwd Header Length,6
+rf_top40,Top 40 — Random Forest Importance,rf_importance,Random Forest Importance,40,Fwd Packet Length Max,7
+rf_top40,Top 40 — Random Forest Importance,rf_importance,Random Forest Importance,40,Subflow Bwd Packets,8
+rf_top40,Top 40 — Random Forest Importance,rf_importance,Random Forest Importance,40,Flow IAT Mean,9
+rf_top40,Top 40 — Random Forest Importance,rf_importance,Random Forest Importance,40,Packet Length Mean,10
+rf_top40,Top 40 — Random Forest Importance,rf_importance,Random Forest Importance,40,Avg Bwd Segment Size,11
+rf_top40,Top 40 — Random Forest Importance,rf_importance,Random Forest Importance,40,Total Backward Packets,12
+rf_top40,Top 40 — Random Forest Importance,rf_importance,Random Forest Importance,40,Flow IAT Max,13
+rf_top40,Top 40 — Random Forest Importance,rf_importance,Random Forest Importance,40,Average Packet Size,14
+rf_top40,Top 40 — Random Forest Importance,rf_importance,Random Forest Importance,40,Total Length of Fwd Packets,15
+rf_top40,Top 40 — Random Forest Importance,rf_importance,Random Forest Importance,40,Flow Packets/s,16
+rf_top40,Top 40 — Random Forest Importance,rf_importance,Random Forest Importance,40,Flow Duration,17
+rf_top40,Top 40 — Random Forest Importance,rf_importance,Random Forest Importance,40,Max Packet Length,18
+rf_top40,Top 40 — Random Forest Importance,rf_importance,Random Forest Importance,40,Packet Length Std,19
+rf_top40,Top 40 — Random Forest Importance,rf_importance,Random Forest Importance,40,Subflow Fwd Bytes,20
+rf_top40,Top 40 — Random Forest Importance,rf_importance,Random Forest Importance,40,Avg Fwd Segment Size,21
+rf_top40,Top 40 — Random Forest Importance,rf_importance,Random Forest Importance,40,Fwd Header Length,22
+rf_top40,Top 40 — Random Forest Importance,rf_importance,Random Forest Importance,40,Flow IAT Std,23
+rf_top40,Top 40 — Random Forest Importance,rf_importance,Random Forest Importance,40,Total Length of Bwd Packets,24
+rf_top40,Top 40 — Random Forest Importance,rf_importance,Random Forest Importance,40,Packet Length Variance,25
+rf_top40,Top 40 — Random Forest Importance,rf_importance,Random Forest Importance,40,Fwd IAT Mean,26
+rf_top40,Top 40 — Random Forest Importance,rf_importance,Random Forest Importance,40,Bwd Packet Length Mean,27
+rf_top40,Top 40 — Random Forest Importance,rf_importance,Random Forest Importance,40,Bwd Packet Length Max,28
+rf_top40,Top 40 — Random Forest Importance,rf_importance,Random Forest Importance,40,Subflow Bwd Bytes,29
+rf_top40,Top 40 — Random Forest Importance,rf_importance,Random Forest Importance,40,Fwd IAT Std,30
+rf_top40,Top 40 — Random Forest Importance,rf_importance,Random Forest Importance,40,PSH Flag Count,31
+rf_top40,Top 40 — Random Forest Importance,rf_importance,Random Forest Importance,40,Fwd IAT Max,32
+rf_top40,Top 40 — Random Forest Importance,rf_importance,Random Forest Importance,40,Fwd Packet Length Mean,33
+rf_top40,Top 40 — Random Forest Importance,rf_importance,Random Forest Importance,40,Bwd Packet Length Min,34
+rf_top40,Top 40 — Random Forest Importance,rf_importance,Random Forest Importance,40,Fwd Packets/s,35
+rf_top40,Top 40 — Random Forest Importance,rf_importance,Random Forest Importance,40,act_data_pkt_fwd,36
+rf_top40,Top 40 — Random Forest Importance,rf_importance,Random Forest Importance,40,Fwd IAT Total,37
+rf_top40,Top 40 — Random Forest Importance,rf_importance,Random Forest Importance,40,Active Min,38
+rf_top40,Top 40 — Random Forest Importance,rf_importance,Random Forest Importance,40,Bwd Packet Length Std,39
+rf_top40,Top 40 — Random Forest Importance,rf_importance,Random Forest Importance,40,Flow Bytes/s,40
+anova_top10,Top 10 — ANOVA F-test,anova_f_test,ANOVA F-test,10,Init_Win_bytes_backward,1
+anova_top10,Top 10 — ANOVA F-test,anova_f_test,ANOVA F-test,10,Bwd Packet Length Mean,2
+anova_top10,Top 10 — ANOVA F-test,anova_f_test,ANOVA F-test,10,Avg Bwd Segment Size,3
+anova_top10,Top 10 — ANOVA F-test,anova_f_test,ANOVA F-test,10,Fwd IAT Std,4
+anova_top10,Top 10 — ANOVA F-test,anova_f_test,ANOVA F-test,10,Packet Length Mean,5
+anova_top10,Top 10 — ANOVA F-test,anova_f_test,ANOVA F-test,10,Average Packet Size,6
+anova_top10,Top 10 — ANOVA F-test,anova_f_test,ANOVA F-test,10,Bwd Packet Length Max,7
+anova_top10,Top 10 — ANOVA F-test,anova_f_test,ANOVA F-test,10,Packet Length Std,8
+anova_top10,Top 10 — ANOVA F-test,anova_f_test,ANOVA F-test,10,SYN Flag Count,9
+anova_top10,Top 10 — ANOVA F-test,anova_f_test,ANOVA F-test,10,Max Packet Length,10
+anova_top20,Top 20 — ANOVA F-test,anova_f_test,ANOVA F-test,20,Init_Win_bytes_backward,1
+anova_top20,Top 20 — ANOVA F-test,anova_f_test,ANOVA F-test,20,Bwd Packet Length Mean,2
+anova_top20,Top 20 — ANOVA F-test,anova_f_test,ANOVA F-test,20,Avg Bwd Segment Size,3
+anova_top20,Top 20 — ANOVA F-test,anova_f_test,ANOVA F-test,20,Fwd IAT Std,4
+anova_top20,Top 20 — ANOVA F-test,anova_f_test,ANOVA F-test,20,Packet Length Mean,5
+anova_top20,Top 20 — ANOVA F-test,anova_f_test,ANOVA F-test,20,Average Packet Size,6
+anova_top20,Top 20 — ANOVA F-test,anova_f_test,ANOVA F-test,20,Bwd Packet Length Max,7
+anova_top20,Top 20 — ANOVA F-test,anova_f_test,ANOVA F-test,20,Packet Length Std,8
+anova_top20,Top 20 — ANOVA F-test,anova_f_test,ANOVA F-test,20,SYN Flag Count,9
+anova_top20,Top 20 — ANOVA F-test,anova_f_test,ANOVA F-test,20,Max Packet Length,10
+anova_top20,Top 20 — ANOVA F-test,anova_f_test,ANOVA F-test,20,Flow IAT Max,11
+anova_top20,Top 20 — ANOVA F-test,anova_f_test,ANOVA F-test,20,Fwd IAT Max,12
+anova_top20,Top 20 — ANOVA F-test,anova_f_test,ANOVA F-test,20,Bwd Packet Length Std,13
+anova_top20,Top 20 — ANOVA F-test,anova_f_test,ANOVA F-test,20,Idle Max,14
+anova_top20,Top 20 — ANOVA F-test,anova_f_test,ANOVA F-test,20,Idle Mean,15
+anova_top20,Top 20 — ANOVA F-test,anova_f_test,ANOVA F-test,20,Idle Min,16
+anova_top20,Top 20 — ANOVA F-test,anova_f_test,ANOVA F-test,20,Active Min,17
+anova_top20,Top 20 — ANOVA F-test,anova_f_test,ANOVA F-test,20,Fwd IAT Total,18
+anova_top20,Top 20 — ANOVA F-test,anova_f_test,ANOVA F-test,20,Active Mean,19
+anova_top20,Top 20 — ANOVA F-test,anova_f_test,ANOVA F-test,20,Flow Duration,20
+anova_top40,Top 40 — ANOVA F-test,anova_f_test,ANOVA F-test,40,Init_Win_bytes_backward,1
+anova_top40,Top 40 — ANOVA F-test,anova_f_test,ANOVA F-test,40,Bwd Packet Length Mean,2
+anova_top40,Top 40 — ANOVA F-test,anova_f_test,ANOVA F-test,40,Avg Bwd Segment Size,3
+anova_top40,Top 40 — ANOVA F-test,anova_f_test,ANOVA F-test,40,Fwd IAT Std,4
+anova_top40,Top 40 — ANOVA F-test,anova_f_test,ANOVA F-test,40,Packet Length Mean,5
+anova_top40,Top 40 — ANOVA F-test,anova_f_test,ANOVA F-test,40,Average Packet Size,6
+anova_top40,Top 40 — ANOVA F-test,anova_f_test,ANOVA F-test,40,Bwd Packet Length Max,7
+anova_top40,Top 40 — ANOVA F-test,anova_f_test,ANOVA F-test,40,Packet Length Std,8
+anova_top40,Top 40 — ANOVA F-test,anova_f_test,ANOVA F-test,40,SYN Flag Count,9
+anova_top40,Top 40 — ANOVA F-test,anova_f_test,ANOVA F-test,40,Max Packet Length,10
+anova_top40,Top 40 — ANOVA F-test,anova_f_test,ANOVA F-test,40,Flow IAT Max,11
+anova_top40,Top 40 — ANOVA F-test,anova_f_test,ANOVA F-test,40,Fwd IAT Max,12
+anova_top40,Top 40 — ANOVA F-test,anova_f_test,ANOVA F-test,40,Bwd Packet Length Std,13
+anova_top40,Top 40 — ANOVA F-test,anova_f_test,ANOVA F-test,40,Idle Max,14
+anova_top40,Top 40 — ANOVA F-test,anova_f_test,ANOVA F-test,40,Idle Mean,15
+anova_top40,Top 40 — ANOVA F-test,anova_f_test,ANOVA F-test,40,Idle Min,16
+anova_top40,Top 40 — ANOVA F-test,anova_f_test,ANOVA F-test,40,Active Min,17
+anova_top40,Top 40 — ANOVA F-test,anova_f_test,ANOVA F-test,40,Fwd IAT Total,18
+anova_top40,Top 40 — ANOVA F-test,anova_f_test,ANOVA F-test,40,Active Mean,19
+anova_top40,Top 40 — ANOVA F-test,anova_f_test,ANOVA F-test,40,Flow Duration,20
+anova_top40,Top 40 — ANOVA F-test,anova_f_test,ANOVA F-test,40,PSH Flag Count,21
+anova_top40,Top 40 — ANOVA F-test,anova_f_test,ANOVA F-test,40,Active Max,22
+anova_top40,Top 40 — ANOVA F-test,anova_f_test,ANOVA F-test,40,Flow IAT Std,23
+anova_top40,Top 40 — ANOVA F-test,anova_f_test,ANOVA F-test,40,Packet Length Variance,24
+anova_top40,Top 40 — ANOVA F-test,anova_f_test,ANOVA F-test,40,Init_Win_bytes_forward,25
+anova_top40,Top 40 — ANOVA F-test,anova_f_test,ANOVA F-test,40,Bwd IAT Mean,26
+anova_top40,Top 40 — ANOVA F-test,anova_f_test,ANOVA F-test,40,Down/Up Ratio,27
+anova_top40,Top 40 — ANOVA F-test,anova_f_test,ANOVA F-test,40,Bwd IAT Min,28
+anova_top40,Top 40 — ANOVA F-test,anova_f_test,ANOVA F-test,40,FIN Flag Count,29
+anova_top40,Top 40 — ANOVA F-test,anova_f_test,ANOVA F-test,40,Active Std,30
+anova_top40,Top 40 — ANOVA F-test,anova_f_test,ANOVA F-test,40,Bwd Packet Length Min,31
+anova_top40,Top 40 — ANOVA F-test,anova_f_test,ANOVA F-test,40,Bwd IAT Max,32
+anova_top40,Top 40 — ANOVA F-test,anova_f_test,ANOVA F-test,40,Bwd IAT Total,33
+anova_top40,Top 40 — ANOVA F-test,anova_f_test,ANOVA F-test,40,Fwd IAT Mean,34
+anova_top40,Top 40 — ANOVA F-test,anova_f_test,ANOVA F-test,40,Fwd PSH Flags,35
+anova_top40,Top 40 — ANOVA F-test,anova_f_test,ANOVA F-test,40,ACK Flag Count,36
+anova_top40,Top 40 — ANOVA F-test,anova_f_test,ANOVA F-test,40,Destination Port,37
+anova_top40,Top 40 — ANOVA F-test,anova_f_test,ANOVA F-test,40,Flow IAT Mean,38
+anova_top40,Top 40 — ANOVA F-test,anova_f_test,ANOVA F-test,40,Bwd IAT Std,39
+anova_top40,Top 40 — ANOVA F-test,anova_f_test,ANOVA F-test,40,Fwd IAT Min,40
+rfe_top10,Top 10 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),10,Destination Port,1
+rfe_top10,Top 10 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),10,Flow IAT Std,2
+rfe_top10,Top 10 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),10,min_seg_size_forward,3
+rfe_top10,Top 10 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),10,Fwd Packet Length Max,4
+rfe_top10,Top 10 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),10,Init_Win_bytes_backward,5
+rfe_top10,Top 10 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),10,Bwd Packet Length Max,6
+rfe_top10,Top 10 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),10,Average Packet Size,7
+rfe_top10,Top 10 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),10,Flow Bytes/s,8
+rfe_top10,Top 10 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),10,Bwd IAT Mean,9
+rfe_top10,Top 10 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),10,Active Min,10
+rfe_top20,Top 20 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),20,Destination Port,1
+rfe_top20,Top 20 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),20,Flow IAT Std,2
+rfe_top20,Top 20 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),20,min_seg_size_forward,3
+rfe_top20,Top 20 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),20,Fwd Packet Length Max,4
+rfe_top20,Top 20 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),20,Init_Win_bytes_backward,5
+rfe_top20,Top 20 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),20,Bwd Packet Length Max,6
+rfe_top20,Top 20 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),20,Average Packet Size,7
+rfe_top20,Top 20 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),20,Flow Bytes/s,8
+rfe_top20,Top 20 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),20,Bwd IAT Mean,9
+rfe_top20,Top 20 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),20,Active Min,10
+rfe_top20,Top 20 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),20,Bwd Packet Length Std,11
+rfe_top20,Top 20 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),20,Bwd Packets/s,12
+rfe_top20,Top 20 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),20,Total Length of Fwd Packets,13
+rfe_top20,Top 20 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),20,Idle Min,14
+rfe_top20,Top 20 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),20,Init_Win_bytes_forward,15
+rfe_top20,Top 20 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),20,Max Packet Length,16
+rfe_top20,Top 20 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),20,Bwd IAT Min,17
+rfe_top20,Top 20 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),20,Fwd IAT Min,18
+rfe_top20,Top 20 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),20,Bwd Packet Length Min,19
+rfe_top20,Top 20 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),20,Bwd Packet Length Mean,20
+rfe_top40,Top 40 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),40,Destination Port,1
+rfe_top40,Top 40 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),40,Flow IAT Std,2
+rfe_top40,Top 40 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),40,min_seg_size_forward,3
+rfe_top40,Top 40 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),40,Fwd Packet Length Max,4
+rfe_top40,Top 40 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),40,Init_Win_bytes_backward,5
+rfe_top40,Top 40 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),40,Bwd Packet Length Max,6
+rfe_top40,Top 40 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),40,Average Packet Size,7
+rfe_top40,Top 40 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),40,Flow Bytes/s,8
+rfe_top40,Top 40 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),40,Bwd IAT Mean,9
+rfe_top40,Top 40 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),40,Active Min,10
+rfe_top40,Top 40 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),40,Bwd Packet Length Std,11
+rfe_top40,Top 40 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),40,Bwd Packets/s,12
+rfe_top40,Top 40 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),40,Total Length of Fwd Packets,13
+rfe_top40,Top 40 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),40,Idle Min,14
+rfe_top40,Top 40 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),40,Init_Win_bytes_forward,15
+rfe_top40,Top 40 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),40,Max Packet Length,16
+rfe_top40,Top 40 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),40,Bwd IAT Min,17
+rfe_top40,Top 40 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),40,Fwd IAT Min,18
+rfe_top40,Top 40 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),40,Bwd Packet Length Min,19
+rfe_top40,Top 40 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),40,Bwd Packet Length Mean,20
+rfe_top40,Top 40 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),40,Fwd Header Length,21
+rfe_top40,Top 40 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),40,Fwd Packet Length Std,22
+rfe_top40,Top 40 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),40,Packet Length Variance,23
+rfe_top40,Top 40 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),40,Bwd Header Length,24
+rfe_top40,Top 40 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),40,Flow IAT Mean,25
+rfe_top40,Top 40 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),40,Subflow Bwd Bytes,26
+rfe_top40,Top 40 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),40,Fwd Packets/s,27
+rfe_top40,Top 40 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),40,Subflow Fwd Bytes,28
+rfe_top40,Top 40 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),40,Flow IAT Max,29
+rfe_top40,Top 40 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),40,Flow Duration,30
+rfe_top40,Top 40 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),40,Flow IAT Min,31
+rfe_top40,Top 40 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),40,FIN Flag Count,32
+rfe_top40,Top 40 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),40,ACK Flag Count,33
+rfe_top40,Top 40 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),40,act_data_pkt_fwd,34
+rfe_top40,Top 40 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),40,Bwd IAT Total,35
+rfe_top40,Top 40 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),40,Fwd IAT Mean,36
+rfe_top40,Top 40 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),40,Fwd Packet Length Mean,37
+rfe_top40,Top 40 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),40,Packet Length Std,38
+rfe_top40,Top 40 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),40,Fwd IAT Max,39
+rfe_top40,Top 40 — RFE (Decision Tree),rfe_decision_tree,RFE (Decision Tree),40,Flow Packets/s,40
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Destination Port,1
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Flow Duration,2
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Total Fwd Packets,3
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Total Backward Packets,4
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Total Length of Fwd Packets,5
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Total Length of Bwd Packets,6
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Fwd Packet Length Max,7
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Fwd Packet Length Min,8
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Fwd Packet Length Mean,9
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Fwd Packet Length Std,10
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Bwd Packet Length Max,11
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Bwd Packet Length Min,12
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Bwd Packet Length Mean,13
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Bwd Packet Length Std,14
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Flow Bytes/s,15
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Flow Packets/s,16
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Flow IAT Mean,17
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Flow IAT Std,18
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Flow IAT Max,19
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Flow IAT Min,20
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Fwd IAT Total,21
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Fwd IAT Mean,22
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Fwd IAT Std,23
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Fwd IAT Max,24
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Fwd IAT Min,25
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Bwd IAT Total,26
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Bwd IAT Mean,27
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Bwd IAT Std,28
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Bwd IAT Max,29
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Bwd IAT Min,30
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Fwd PSH Flags,31
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Bwd PSH Flags,32
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Fwd URG Flags,33
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Fwd Header Length,34
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Bwd Header Length,35
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Fwd Packets/s,36
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Bwd Packets/s,37
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Min Packet Length,38
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Max Packet Length,39
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Packet Length Mean,40
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Packet Length Std,41
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Packet Length Variance,42
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,FIN Flag Count,43
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,SYN Flag Count,44
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,RST Flag Count,45
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,PSH Flag Count,46
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,ACK Flag Count,47
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,URG Flag Count,48
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,CWE Flag Count,49
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,ECE Flag Count,50
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Down/Up Ratio,51
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Average Packet Size,52
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Avg Fwd Segment Size,53
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Avg Bwd Segment Size,54
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Subflow Fwd Packets,55
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Subflow Fwd Bytes,56
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Subflow Bwd Packets,57
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Subflow Bwd Bytes,58
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Init_Win_bytes_forward,59
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Init_Win_bytes_backward,60
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,act_data_pkt_fwd,61
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,min_seg_size_forward,62
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Active Mean,63
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Active Std,64
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Active Max,65
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Active Min,66
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Idle Mean,67
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Idle Std,68
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Idle Max,69
+all_features,All 70 Features (Shared Baseline),shared_all_features,Shared baseline (no feature selection),70,Idle Min,70
